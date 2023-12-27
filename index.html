@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My garden</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+<!--all the audio of the button-->
+<audio id="music1" src="audio/dragon-fire.mp3"></audio>
+<audio id="music2" src="audio/dolfin.mp3"></audio>
+<audio id="music3" src="audio/crubStep.mp3"></audio>
+<audio id="music4" src="audio/WHALE.mp3"></audio>
+<audio id="music5" src="audio/sealion.mp3"></audio>
+<audio id="music6" src="audio/bob.mp3"></audio>
+<audio id="music7" src="audio/diver.mp3"></audio>
+
+<!--site audio -->
+<audio id="load" src="audio/ocean.mp3" loop="loop"></audio>
+
+<!--add background video with no sound-->
+<video autoplay muted loop id="myVideo">
+    <source src="images/occenBG.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+<div id = "title"> welcome to the ocean</div>
+<!--div with all the buttons-->
+<div class="content">
+    <button onclick="handleButtonClick('dragon')" class="Dragon buttonI">A</button>
+    <button onclick=" handleButtonClick('dolphin')" class="dolfin buttonI">D</button>
+    <button onclick=" handleButtonClick('crub')" class="crub buttonI">C</button>
+    <button onclick=" handleButtonClick('whale')" class="whale buttonI">W</button>
+    <button onclick=" handleButtonClick('seelion')" class="seelion buttonI">S</button>
+    <button onclick=" handleButtonClick('bob')" class="bob buttonI">B</button>
+    <button onclick=" handleButtonClick('diver')" class="diver buttonI">R</button>
+</div>  
+
+<div id="effect"></div>
+<script src="index.js"></script>
+</body>
+</html>

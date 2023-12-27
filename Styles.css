@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Water+Brush&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.Dragon {
+    background: url('images/Levi_dragon.webp');
+    background-size:cover;   
+}
+.dolfin {
+    background: url('images/dolfin2.jfif');
+    background-size:cover;   
+}
+
+.crub {
+    background: url('images/crub.avif');
+    background-size:cover;   
+}
+.whale {
+    background: url('images/LEVAITAN.jfif');
+    background-size:cover;   
+}
+.seelion {
+    background: url('images/seeDOG.jfif');
+    background-size:cover;   
+}
+
+.bob {
+    background: url('images/bob.jpg');
+    background-size:cover;   
+}
+.diver {
+    background: url('images/dive.jfif');
+    background-size:cover;   
+}
+.content {
+    width: 700px;
+    position: relative;
+    justify-content: space-around;
+    margin: 20px auto; 
+    padding: 20px 0;
+}
+@media (max-width: 800px) {
+    .content {width: 90%;}
+}
+
+#title{
+    position: relative;
+    font-family: 'Water Brush', cursive;
+    font-size: 70px;
+    font-weight: bold;
+}
+h1{
+    position:fixed;
+    width: 100%;
+}
+
+.bottomImage {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100px; /* Adjust the width and height as needed */
+    max-height: 100px;
+}
+
+.buttonI{
+    font-weight: 900;
+    text-shadow: 3px 0 #40bbe4;
+    border-radius: 15px;
+    border: 7px solid #1d2b51;
+    display: inline-block;
+    width: 140PX;
+    height:140px;
+    font-size: 60PX;
+    padding: 10px;
+    color: #b9dcf8;
+    cursor: pointer;
+    margin: 15px;
+    background-color: transparent;
+    overflow: hidden; 
+    position: relative;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add smooth transition effects */
+}
+
+#effect{
+    width: 100%;
+    bottom:0%;
+    height: 70px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.startOnClick{
+    width: 220PX;
+    height: 150px;
+}
+.dimmed {
+    filter: brightness(70%); /* Adjust the brightness as needed */
+}
+
+.enlarged {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+}
+
+
